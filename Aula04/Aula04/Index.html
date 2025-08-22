@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Sobre Hierarquia</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Sumário</h1>
+
+    <br><br>
+    <h2>4. FERRAMENTAS UTILIZADAS NA BIBLIOTECA ANA BOVE</h2>
+    <h3>4.1 Sobre a Biblioteca Ana Bove a sua instuição mantenedora</h3>
+    <h4>4.1.1 O Imip</h4>
+    <h4>4.1.2 A biblioteca Ana Bove</h4>
+    <h3>4.2 Diagnóstico tecnológico da Biblioteca Ana Bove</h3>
+    <h4>4.2.1 Catálogo automático</h4>
+    <h4>4.2.2 Repositório institucional</h4>
+    <h4>4.2.3 Portal e/ou base de dados de informação científica</h4>
+    <h4>4.2.4 Website (site)</h4>
+    <h4>4.2.5 Redes sociais</h4>
+    <h4>4.2.6 Outras ferramentas</h4>
+    <br><hr>
+
+    <h1>Semântica vs Forma</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não tem semântica)</p>
+    <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong(com semântica)</p>
+    <br>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag i (não semântica)</p>
+    <h2>Texto Marcador</h2>
+    <p>Assim vamos usar um texto com destaque <mark  style= "background-color: #00FF00">de marcador de texto</mark> usando mark</p>
+    <p>Assim vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos trabalhando aqui com um <big>Texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
+    <h2>Texto deletado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <del>que foi excluido</del> da frase</p>
+    <h2>Texto inserido</h2>
+    <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u>  na frase de forma não semântica</p>
+    <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins>  n afrase de forma semântica</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Vamos demonstrar uma formula da equação de segundo grau ax <sup>2</sup> + bx + c = 0 usando texto sobrescrito</p>
+    <h2>Texto subescrito</h2>
+    <p>Vamos mostrar o texto subescrito com a formula do H<sub>2</sub>O</p>
+    <h2>Trecho de código fonte</h2>
+    <p>Neste exemplo vamos demonstrar um trecho de código</p>
+    <p>Inserindo o comando <code>document.GetElementById('edtCodigo')</code> que é um comando java script</p>
+    <p>Inserindo um longo código de python</p>
+    <pre>
+        <code>
+            def calcular_total_com_desconto(itens):
+    """
+    Calcula o custo total de uma lista de itens, aplicando um desconto.
+    """
+    total_bruto = 0
+    for preco in itens:
+        total_bruto += preco
+
+    desconto = 0
+    if total_bruto > 100: # Define um limite para o desconto
+        desconto = total_bruto * 0.10 # 10% de desconto
+        print(f"Você recebeu um desconto de R${desconto:.2f}!")
+
+    valor_final = total_bruto - desconto
+    return valor_final
+
+    # --- Programa principal ---
+    def main():
+    lista_de_precos = [25.50, 15.00, 30.75, 40.00, 12.00]
+    print(f"Lista de preços dos itens: {lista_de_precos}")
+
+    custo_final = calcular_total_com_desconto(lista_de_precos)
+    print(f"O valor final a ser pago é: R${custo_final:.2f}")
+
+    # Exemplo de input (se o programa fosse mais interativo)
+    # nome = input("Digite seu nome: ")
+    # print(f"Olá, {nome}!")
+
+    if __name__ == "__main__":
+        main()
+        </code>
+    </pre>
+    <h2>Citações (quotations) simples</h2>
+    <p>Segundo Steve Jobs <q>A tecnologia move o mundo</q>.</p>
+    <h2>Citações completas (livros)</h2>
+    <p>Segundo não sei quem, no livro não sei qual lá.</p>
+    <blockquote cite="https://posedu.ufop.br/como-fazer-cita%C3%A7%C3%B5es-abnt-de-acordo-com-nbr-105202023#:~:text=Oliveira%2C%202016).-,Cita%C3%A7%C3%A3o%20indireta%20longa,usar%20espa%C3%A7amento%20simples.">
+        A vida é aquilo que fazem dela, uma mercadoria, um barco, uma viagem, um presente e até mesmo uma venda. A vida pode ser tudo isto, e pode não ser nada, dependendo de como a entendemos e do que fazemos com ela. É a liberdade de fazer as escolhas que nos definem, e essa liberdade vem com uma grande responsabilidade, da qual não podemos fugir.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estamos estudando</p>
+
+
+</body>
+</html>
