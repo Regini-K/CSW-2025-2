@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-06</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <h2>Diretório de aula</h2>
+
+    <p>Uma tabela simples consiste em uma grade retangular formada por linhas e colunas, sendo que em cada celula pode conter um texto, imagem, ou outros elemntos html.</p>
+    <ul>
+        <li>&lt;table border="1"&gt; cria uma borda</li>
+        <li>&lt;tr&gt; cria uma linhas</li>
+        <li>&lt;th&gt; cria uma coluna de cabeçalho</li>
+        <li>&lt;td&gt; cria uma coluna nao cabeçalho</li>
+    </ul>
+    
+    <h3>Efeito semantico</h3>
+    <ul>
+        <li>&lt;thead&gt; Ajuda o navegador a saber que esse é o cabeçalho da tabela</li>
+        <li>&lt;tbody&gt; Ajuda o navegador a saber que esse é o corpo da tabela</li>
+        <li>&lt;tfoot&gt; Ajuda o navegador a saber que esse é o total da tabela</li>
+    </ul>
+
+    <h3>Mesclagem</h3>
+    <ul>
+        <li>&lt;th rowspan="2"&gt; mescla na vertical</li>
+        <li>&lt;th colspan="2"&gt; mescla na horizontal</li>
+    </ul>
+    
+    <hr><hr><hr>
+    <h2>Exemplo</h2>
+
+    <table border="1">
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Camiseta</td>
+            <td>R$39,90</td>
+        </tr>
+        <tr>
+            <td>Calça jeans</td>
+            <td>R$89,90</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h2>Desafios</h2>
+
+    <Table border="2">
+        <thead>
+            <tr>
+                <th colspan="2">Brasil</th>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">São Paulo</td>
+                <td>Corintians</td>
+            </tr>
+            <tr>
+                <td>Palmeiras</td>
+            </tr>
+            <Tr>
+                <td>São Paulo</td>
+            </Tr>
+            <tr>
+                <td>Santos</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Rio de Janeiro</td>
+                <td>Botafogo</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+            </tr>
+            <Tr>
+                <td>Fluminense</td>
+            </Tr>
+            <tr>
+                <td>Vasco GIGANTE DA COLINA</td>
+            </tr>
+        </tbody>
+    </Table>
+
+    <hr>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th colspan="3">Analise de Preços</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Caixa JBL Bump!</td>
+                <td rowspan="2">Submarino</td>
+                <td>Boleto</td>
+                <td>R$300,00</td>
+            </tr>
+            <tr>
+                <td>Cartão</td>
+                <td>R$350,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Amazon</td>
+                <td>Boleto</td>
+                <td>R$310,00</td>
+            </tr>
+            <tr>
+                <td>Cartão</td>
+                <td>R$340,00</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Apple Watch SE</td>
+                <td rowspan="2">Submarino</td>
+                <td>Boleto</td>
+                <td>R$2.300,00</td>
+            </tr>
+            <tr>
+                <td>Cartão</td>
+                <td>R$2.500,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Amazon</td>
+                <td>Boleto</td>
+                <td>R$2.350,00</td>
+            </tr>
+            <tr>
+                <td>Cartão</td>
+                <td>R$2.350,00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="2">Funcionário</th>
+                <th rowspan="2">Semestre</th>
+                <th colspan="2">Gastos</th>
+                <th colspan="2">Lucros</th>
+            </tr>
+            <tr>
+                <th>Líquido</th>
+                <th>Bruto</th>
+                <th>Líquido</th>
+                <th>Bruto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">João</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Maria</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
