@@ -1,0 +1,25 @@
+*{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: white;
+    background-color: lightcoral;
+}
+
+h2{
+    color: white;
+    background-color: brown;
+}
+
+h3{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+.cordif{
+    color: red;
+}
