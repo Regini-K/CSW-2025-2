@@ -1,0 +1,36 @@
+#titulo1{
+    color: blue;
+    text-align: center;
+}
+
+#titulo2{
+    color: green;
+}
+
+.cap1ordem{
+    text-align: right;
+    color: red;
+}
+
+.cap1ordem::after{
+    content: "(Texto alinhado a direita)";
+    color: lightgrey;
+    font-size: small;
+}
+
+.cap2ordem{
+    color: violet;
+    font-style: italic;
+    width:fit-content;
+}
+
+.cap2ordem:hover{
+    color: blue;
+    font-style: normal;
+}
+
+.cap2ordem::after{
+    content: "(fit-content)";
+    color: lightgray;
+    font-size: small;
+}

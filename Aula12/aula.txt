@@ -1,0 +1,54 @@
+ID, CLASSE, DIV, SPAN
+
+ID E CLASSE
+
+ID
+so pode existir 1 id, é como se fosse um cpf
+representação no css (#nomedoID)
+
+CLASSE
+forma de modificar um grupo de elemntos
+representação css (.nomedaclasse)
+
+cuidado para nao por o nome da classe uma caracteristica dela, nao de pode existir uma "classe fundo azul"
+pois se for modificado posteriormente vai ficar estranho
+
+um elemento pode ter mais de uma classe, <h1 class="grupo" class="cordefundo">
+
+
+DIV E SPAN
+
+a grande maioria dos elemntos que usamos em html são em formato de BOX(caixa)
+
+margin (distancia entre elementos)
+    outline (distancia entre borda e margem)
+        border (é o que aparece)
+            padding (espaço entre o conteudo e a borda)
+                conteudo
+            padding
+        border
+    outline
+mergin
+
+atributos
+margin
+left-margin
+right-margin
+
+
+DIV
+é um container genérico para conteudo de fluxo, que de certa forma nao representa nada 
+pode ser usado para agrupar elementos para fins de estilo.
+
+pseudoclasse
+palavra chave que permite que vc modifique um pedaço especifico do elemento referenciado
+ex: hover
+div:hover{
+    background_color="yellow"
+}(modifica o cursor do mouse, nesse caso, ele modifica o fundo do que o cursor estiver em cima e for link para um fundo amarelo)
+
+pseudoelemento
+ex:"::after"
+div{
+
+}(adiciona um elemento ou uma palavra)
