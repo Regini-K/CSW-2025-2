@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,41 @@
     <link rel="stylesheet" href="style.css">
     <title>Aula-14</title>
 </head>
-<body>
-    
-    <main>
 
+<body>
+    <main>
         <div class="container">
-            
+
             <div class="div1">
+                <h1 class="titulo">Calculadora de Idade</h1>
                 <img src="./img/nasc.jpg" alt="logo calculadora" class="imgbb">
-                <h1>Calculadora de Idade</h1>
             </div>
 
             <br>
 
             <div class="div2">
-            <span>Data de Nascimento</span>
-            <input id="dia_nascimento" class="data_nascimento" type="number" max="31" placeholder="Dia de nascimento">
-            <select name="mes_nascimento" class="mes_nascimento" id="mes_nascimento">
-                <option value="Error">Escolha</option>
-                <option value="01">Janeiro</option>
-                <option value="02">Fevereiro</option>
-                <option value="03">Março</option>
-                <option value="04">Abril</option>
-                <option value="05">Maio</option>
-                <option value="06">Junho</option>
-                <option value="07">Julho</option>
-                <option value="08">Agosto</option>
-                <option value="09">Setembro</option>
-                <option value="10">Outubro</option>
-                <option value="11">Novembro</option>
-                <option value="12">Dezembro</option>
-            </select>
-            <input type="number" name="ano" id="ano_nascimento" class="ano_nascimento" placeholder="Ano de nascimento">
-            <br>
-            <button onclick="calculaIdade()">Calcular idade</button>
+                <span class="spandata">Data de Nascimento</span>
+                <input id="dia_nascimento" class="data_nascimento" type="number" max="31"
+                    placeholder="Dia de nascimento">
+                <select name="mes_nascimento" class="mes_nascimento" id="mes_nascimento">
+                    <option value="Error">Escolha</option>
+                    <option value="01">Janeiro</option>
+                    <option value="02">Fevereiro</option>
+                    <option value="03">Março</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Maio</option>
+                    <option value="06">Junho</option>
+                    <option value="07">Julho</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <input type="number" name="ano" id="ano_nascimento" class="ano_nascimento"
+                    placeholder="Ano de nascimento">
+                <br>
+                <button onclick="calculaIdade()" class="botaoidade">Calcular idade</button>
             </div>
 
             <br>
@@ -48,9 +50,17 @@
             <div class="resposta" id="resposta">
             </div>
         </div>
+
     </main>
 
     <script src="./calculadora.js"></script>
 
 </body>
+
+</html>
+
+    <script src="./calculadora.js"></script>
+
+</body>
+
 </html>
