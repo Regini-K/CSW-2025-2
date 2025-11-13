@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula-14</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="div1">
+                <h1 class="titulo">Calculadora de Idade</h1>
+                <img src="./img/nasc.jpg" alt="logo calculadora" class="imgbb">
+            </div>
+
+            <br>
+
+            <div class="div2">
+                <span class="spandata">Data de Nascimento</span>
+                <input id="dia_nascimento" class="data_nascimento" type="number" max="31"
+                    placeholder="Dia de nascimento">
+                <select name="mes_nascimento" class="mes_nascimento" id="mes_nascimento">
+                    <option value="Error">Escolha</option>
+                    <option value="01">Janeiro</option>
+                    <option value="02">Fevereiro</option>
+                    <option value="03">Março</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Maio</option>
+                    <option value="06">Junho</option>
+                    <option value="07">Julho</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <input type="number" name="ano" id="ano_nascimento" class="ano_nascimento"
+                    placeholder="Ano de nascimento">
+                <br>
+                <br>
+                <button onclick="calculaIdade()" class="botaoidade">Calcular idade</button>
+            </div>
+
+            <br>
+
+            <div class="resposta" id="resposta">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="logo" id="calculadora">
+                <h1>Calculadora</h1>
+                <img src="" alt="">
+            </div>
+
+            <hr>
+
+                <div class="corpo">
+                    <input type="number" name="" id="n1">
+
+                    <select name="op" id="op">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+
+                    <input type="number" name="" id="n2">
+
+                    <br>
+                    <br>
+
+                    <button onclick="calcular()" class="botaocalculo">Calcular</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="logo" id="calculadora">
+                <h1>Calculadora Fatorial</h1>
+                <img src="" alt="">
+            </div>
+
+            <div class="corpo">
+                <input type="number" id="numero">
+
+                <button onclick="calculoFatorial()" class="botaocalculo">Calcular</button>
+            </div>
+            
+            
+        </div>
+
+    </main>
+
+    <script src="./calculadora.js"></script>
+
+</body>
+
+</html>
